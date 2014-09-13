@@ -15,9 +15,6 @@ def n_factorial(number):
 
 
 
-# Define y calcula factor Forest Gump
-
-
 ############################################################
 
 def main():
