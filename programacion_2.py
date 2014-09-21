@@ -4,12 +4,14 @@
 
 def divisores(number):
   from decimal import Decimal
+  a = 0
   for i in range(1,number+1):
     division = Decimal(number)/Decimal(i)
     if division == int(division):
-      print i
+      a = a , i
     else:
       print "no es divisor"
+  print a
   return division
   
 def main():
